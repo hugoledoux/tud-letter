@@ -1,4 +1,5 @@
-#import "../src/lib.typ": *
+#import "@preview/tud-letter:0.1.0": *
+// #import "../src/lib.typ": *
 
 #show: tud-letter.with(
   // lang: "nl",
