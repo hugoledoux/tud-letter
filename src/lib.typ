@@ -1,4 +1,4 @@
-#let tudletter(
+#let tud-letter(
   from: "",
   to: "",
   date: datetime.today().display(),

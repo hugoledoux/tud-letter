@@ -1,4 +1,4 @@
-# tudletter
+# tud-letter
 
 A Typst template that (more or less) replicates the TUDelft letter (only available in Word).
 It also makes it more beautiful IMO, but hey I guess it's subjective...
@@ -9,7 +9,7 @@ By default it's in English and the faculty name is my faculty... but you can mod
 
 You can compile the example letter with this command:
 
-`typst compile --root . examples/letter.typ`
+`typst compile --root . template/letter.typ`
 
 Notice that you can also install the package manually to your local Typst, see instruction there:
 <https://github.com/typst/packages?tab=readme-ov-file#local-packages>
@@ -20,7 +20,7 @@ Notice that you can also install the package manually to your local Typst, see i
 ```typst
 #import "../src/lib.typ": *
 
-#show: tudletter.with(
+#show: tud-letter.with(
   from: (
     name: "Jan Smit",
     phone: "+31 (0)15 27 12345",

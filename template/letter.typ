@@ -1,6 +1,6 @@
 #import "../src/lib.typ": *
 
-#show: tudletter.with(
+#show: tud-letter.with(
   // lang: "nl",
   from: (
     name: "Jan Smit",

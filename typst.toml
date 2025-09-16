@@ -2,10 +2,15 @@
 entrypoint = "src/lib.typ"
 name = "tudletter"
 version = "0.1.0"
-compiler = "0.13.1"
-authors = ["Hugo Ledoux <h.ledoux@tudelft.nl>"]
+compiler = "0.13.0"
+authors = ["Hugo Ledoux <https://3d.bk.tudelft.nl/hledoux>"]
 repository = "https://github.com/hugoledoux/tudletter"
 description = "A Typst template that (almost?) replicates the TUDelft letter"
 keywords = ["TU Delft", "letter"]
 license = "MIT"
 categories = ["office"]
+
+[template]
+path = "template"
+entrypoint = "letter.typ"
+thumbnail = "thumbnail.png"
