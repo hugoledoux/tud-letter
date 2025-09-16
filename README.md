@@ -1,9 +1,10 @@
 # tud-letter
 
-A Typst template that (more or less) replicates the TUDelft letter (only available in Word).
+A Typst template that (more or less) replicates the [TUDelft letter](https://www.tudelft.nl/huisstijl/) (only available in Word).
 It also makes it more beautiful IMO, but hey I guess it's subjective...
 
-By default it's in English and the faculty name is my faculty... but you can modify it.
+By default it's in English and the faculty name is my faculty... but you can modify it, see the example. 
+You can also put `lang: "nl"` so that the fields top-left are in Dutch.
 
 ## How to use it?
 
